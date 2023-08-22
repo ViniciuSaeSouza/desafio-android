@@ -108,18 +108,15 @@ main  p {
 
 main a {
     font-weight: bold;
-}
-
-span{
     background-image: linear-gradient(to right, #64E365,#6FFD99 );
+    text-decoration: none;
+    color: black;
 }
 
-span > a {
-    text-decoration: none;
-}
 
 span > a:hover {
     text-decoration: underline;
+    color: white;
 }
 
 span > a:visited {
@@ -128,7 +125,6 @@ span > a:visited {
 
 span::after {
     content: "🔗";
-
 }
 
 .video { 
