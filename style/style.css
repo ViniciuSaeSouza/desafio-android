@@ -91,7 +91,7 @@ main  h1{
     font-size: 2em;
 
 }
-main  h2 {
+main > article > h2 {
     font-family: var(--fonte-idroid);
     margin: 0;
     background-image: linear-gradient(to right, #df97f09c , white);
@@ -141,7 +141,7 @@ span::after {
     justify-content: center;
 }
 
-main > picture {
+main  picture {
     display: flex;
     justify-content: center;
 }
