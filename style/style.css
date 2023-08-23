@@ -17,7 +17,7 @@
 }
 
 body {
-    margin: 0;
+    margin: auto;
     background-color: #cc78df;
     font-family: var(--fonte-padrao);
 }
